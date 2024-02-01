@@ -1,0 +1,12 @@
+# Visual Studio
+.vs/
+
+# Visual Studio Code
+.vscode/
+
+# .NET build results
+bin/
+obj/
+
+# Password file
+password.txt
