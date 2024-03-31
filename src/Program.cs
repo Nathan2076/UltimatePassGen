@@ -10,22 +10,26 @@ namespace UltimatePassGen
         {
             Console.OutputEncoding = Encoding.Unicode;
             Console.Title = "Ultimate PassGen";
+            Config.Load();
 
             Console.WriteLine("Welcome to Ultimate PassGen!\n");
-
+            
             string? input;
-            int length;
+            int length = Config.options.PasswordLength;
 
-            do
+            if (Config.options.AutoGeneratePassword)
             {
                 do
                 {
-                    Console.Write("Type the length of your password: ");
-                    input = Console.ReadLine();
+                    do
+                    {
+                        Console.Write("Type the length of your password: ");
+                        input = Console.ReadLine();
+                    }
+                    while (!int.TryParse(input, out length));
                 }
-                while (!Int32.TryParse(input, out length));
+                while (!(length > 0));
             }
-            while (!(length > 0));
 
             Console.WriteLine("Generating...");
 

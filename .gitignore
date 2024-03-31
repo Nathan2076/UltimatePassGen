@@ -8,5 +8,8 @@
 bin/
 obj/
 
+#Config file
+config.json
+
 # Password file
 password.txt
