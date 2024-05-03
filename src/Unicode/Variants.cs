@@ -1,6 +1,6 @@
-namespace UltimatePassGen.Unicode
+namespace UltimatePassGen
 {
-    static class Variants
+    static class Unicode
     {
         public static readonly string[] mathematical =
         [
