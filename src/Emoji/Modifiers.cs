@@ -1,10 +1,12 @@
-namespace UltimatePassGen.Emoji
+namespace UltimatePassGen
 {
     class Modifiers
     {
-        public static class PeopleAndBody
-        {
-            public static readonly string[] handFingersOpen =
+        public static readonly string[][] modifiers =
+        [
+            /* People & Body */
+
+            // hand-fingers-open
             [
                 "\U0001F44B\U0001F3FB",
                 "\U0001F44B\U0001F3FC",
@@ -61,9 +63,9 @@ namespace UltimatePassGen.Emoji
                 "\U0001FAF8\U0001F3FD",
                 "\U0001FAF8\U0001F3FE",
                 "\U0001FAF8\U0001F3FF"
-            ];
+            ],
             
-            public static readonly string[] handFingersPartial =
+            // hand-fingers-partial
             [
                 "\U0001F44C\U0001F3FB",
                 "\U0001F44C\U0001F3FC",
@@ -110,9 +112,9 @@ namespace UltimatePassGen.Emoji
                 "\U0001F919\U0001F3FD",
                 "\U0001F919\U0001F3FE",
                 "\U0001F919\U0001F3FF"
-            ];
+            ],
             
-            public static readonly string[] handSingleFinger =
+            // hand-single-finger
             [
                 "\U0001F448\U0001F3FB",
                 "\U0001F448\U0001F3FC",
@@ -149,9 +151,9 @@ namespace UltimatePassGen.Emoji
                 "\U0001FAF5\U0001F3FD",
                 "\U0001FAF5\U0001F3FE",
                 "\U0001FAF5\U0001F3FF"
-            ];
+            ],
             
-            public static readonly string[] handFingersClosed =
+            // hand-fingers-closed
             [
                 "\U0001F44D\U0001F3FB",
                 "\U0001F44D\U0001F3FC",
@@ -183,9 +185,9 @@ namespace UltimatePassGen.Emoji
                 "\U0001F91C\U0001F3FD",
                 "\U0001F91C\U0001F3FE",
                 "\U0001F91C\U0001F3FF"
-            ];
+            ],
             
-            public static readonly string[] hands =
+            // hands
             [
                 "\U0001F44F\U0001F3FB",
                 "\U0001F44F\U0001F3FC",
@@ -242,9 +244,9 @@ namespace UltimatePassGen.Emoji
                 "\U0001F64F\U0001F3FD",
                 "\U0001F64F\U0001F3FE",
                 "\U0001F64F\U0001F3FF"
-            ];
+            ],
             
-            public static readonly string[] handProp =
+            // hand-prop
             [
                 "\u270D\U0001F3FB",
                 "\u270D\U0001F3FC",
@@ -261,9 +263,9 @@ namespace UltimatePassGen.Emoji
                 "\U0001F933\U0001F3FD",
                 "\U0001F933\U0001F3FE",
                 "\U0001F933\U0001F3FF"
-            ];
+            ],
             
-            public static readonly string[] bodyParts =
+            // body-parts
             [
                 "\U0001F4AA\U0001F3FB",
                 "\U0001F4AA\U0001F3FC",
@@ -295,9 +297,9 @@ namespace UltimatePassGen.Emoji
                 "\U0001F443\U0001F3FD",
                 "\U0001F443\U0001F3FE",
                 "\U0001F443\U0001F3FF"
-            ];
+            ],
             
-            public static readonly string[] person =
+            // person
             [
                 "\U0001F476\U0001F3FB",
                 "\U0001F476\U0001F3FC",
@@ -439,9 +441,9 @@ namespace UltimatePassGen.Emoji
                 "\U0001F475\U0001F3FD",
                 "\U0001F475\U0001F3FE",
                 "\U0001F475\U0001F3FF"
-            ];
+            ],
             
-            public static readonly string[] personGesture =
+            // person-gesture
             [
                 "\U0001F64D\U0001F3FB",
                 "\U0001F64D\U0001F3FC",
@@ -593,9 +595,9 @@ namespace UltimatePassGen.Emoji
                 "\U0001F937\U0001F3FD\u200D\u2640",
                 "\U0001F937\U0001F3FE\u200D\u2640",
                 "\U0001F937\U0001F3FF\u200D\u2640"
-            ];
+            ],
             
-            public static readonly string[] personRole =
+            // person-role
             [
                 "\U0001F9D1\U0001F3FB\u200D\u2695",
                 "\U0001F9D1\U0001F3FC\u200D\u2695",
@@ -1007,9 +1009,9 @@ namespace UltimatePassGen.Emoji
                 "\U0001F9D1\U0001F3FD\u200D\U0001F37C",
                 "\U0001F9D1\U0001F3FE\u200D\U0001F37C",
                 "\U0001F9D1\U0001F3FF\u200D\U0001F37C"
-            ];
+            ],
             
-            public static readonly string[] personFantasy =
+            // person-fantasy
             [
                 "\U0001F47C\U0001F3FB",
                 "\U0001F47C\U0001F3FC",
@@ -1136,9 +1138,9 @@ namespace UltimatePassGen.Emoji
                 "\U0001F9DD\U0001F3FD\u200D\u2640",
                 "\U0001F9DD\U0001F3FE\u200D\u2640",
                 "\U0001F9DD\U0001F3FF\u200D\u2640"
-            ];
+            ],
             
-            public static readonly string[] personActivity =
+            // person-activity
             [
                 "\U0001F486\U0001F3FB",
                 "\U0001F486\U0001F3FC",
@@ -1410,9 +1412,9 @@ namespace UltimatePassGen.Emoji
                 "\U0001F9D7\U0001F3FD\u200D\u2640",
                 "\U0001F9D7\U0001F3FE\u200D\u2640",
                 "\U0001F9D7\U0001F3FF\u200D\u2640"
-            ];
+            ],
             
-            public static readonly string[] personSport =
+            // person-sport
             [
                 "\U0001F3C7\U0001F3FB",
                 "\U0001F3C7\U0001F3FC",
@@ -1604,9 +1606,9 @@ namespace UltimatePassGen.Emoji
                 "\U0001F939\U0001F3FD\u200D\u2640",
                 "\U0001F939\U0001F3FE\u200D\u2640",
                 "\U0001F939\U0001F3FF\u200D\u2640"
-            ];
+            ],
             
-            public static readonly string[] personResting =
+            // person-resting
             [
                 "\U0001F9D8\U0001F3FB",
                 "\U0001F9D8\U0001F3FC",
@@ -1633,9 +1635,9 @@ namespace UltimatePassGen.Emoji
                 "\U0001F6CC\U0001F3FD",
                 "\U0001F6CC\U0001F3FE",
                 "\U0001F6CC\U0001F3FF"
-            ];
+            ],
             
-            public static readonly string[] family =
+            // family
             [
                 "\U0001F9D1\U0001F3FB\u200D\U0001F91D\u200D\U0001F9D1\U0001F3FB",
                 "\U0001F9D1\U0001F3FB\u200D\U0001F91D\u200D\U0001F9D1\U0001F3FC",
@@ -1937,19 +1939,18 @@ namespace UltimatePassGen.Emoji
                 "\U0001F469\U0001F3FF\u200D\u2764\u200D\U0001F469\U0001F3FD",
                 "\U0001F469\U0001F3FF\u200D\u2764\u200D\U0001F469\U0001F3FE",
                 "\U0001F469\U0001F3FF\u200D\u2764\u200D\U0001F469\U0001F3FF"
-            ];
-        }
-        
-        public static class Component
-        {
-            public static readonly string[] skinTone =
+            ],
+
+            /* Component */
+
+            // skin-tone
             [
                 "\U0001F3FB",
                 "\U0001F3FC",
                 "\U0001F3FD",
                 "\U0001F3FE",
                 "\U0001F3FF"
-            ];
-        }
+            ]
+        ];
     }
 }
