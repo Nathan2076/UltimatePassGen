@@ -1,8 +1,8 @@
-namespace UltimatePassGen
+namespace UltimatePassGen.Unicode
 {
     static class Charts
     {
-        public static readonly string[][] charts =
+        public static readonly string[][] blocks =
         [
             /* BMP - Basic Multilingual Plane */
             

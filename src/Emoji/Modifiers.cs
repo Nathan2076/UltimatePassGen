@@ -1,8 +1,8 @@
-namespace UltimatePassGen
+namespace UltimatePassGen.Emoji
 {
     class Modifiers
     {
-        public static readonly string[][] modifiers =
+        public static readonly string[][] groups =
         [
             /* People & Body */
 

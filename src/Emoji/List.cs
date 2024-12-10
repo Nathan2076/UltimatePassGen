@@ -1,8 +1,8 @@
-namespace UltimatePassGen
+namespace UltimatePassGen.Emoji
 {
-    class Emoji
+    class List
     {
-    	public static readonly string[][] list =
+    	public static readonly string[][] groups =
         [
             /* Smileys & Emotion */
             

@@ -90,28 +90,28 @@ namespace UltimatePassGen
         {
             int chosenBlock = RandomNumberGenerator.GetInt32(322);
             
-            return InsertGlyphFromArray(Charts.charts[chosenBlock]);
+            return InsertGlyphFromArray(Unicode.Charts.blocks[chosenBlock]);
         }
         
         private static string InsertUnicodeVariant()
         {
             int chosenBlock = RandomNumberGenerator.GetInt32(10);
             
-            return InsertGlyphFromArray(Unicode.variants[chosenBlock]);
+            return InsertGlyphFromArray(Unicode.Variants.blocks[chosenBlock]);
         }
         
         private static string InsertEmoji()
         {
             int chosenGroup = RandomNumberGenerator.GetInt32(102);
             
-            return InsertGlyphFromArray(Emoji.list[chosenGroup]);
+            return InsertGlyphFromArray(Emoji.List.groups[chosenGroup]);
         }
         
         private static string InsertEmojiModifier()
         {
             int chosenGroup = RandomNumberGenerator.GetInt32(16);
             
-            return InsertGlyphFromArray(Modifiers.modifiers[chosenGroup]);
+            return InsertGlyphFromArray(Emoji.Modifiers.groups[chosenGroup]);
         }
         
         static string InsertGlyphFromArray(string[] array)
