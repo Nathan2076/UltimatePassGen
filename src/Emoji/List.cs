@@ -84,7 +84,8 @@ namespace UltimatePassGen.Emoji
                 "\U0001F614",
                 "\U0001F62A",
                 "\U0001F924",
-                "\U0001F634"
+                "\U0001F634",
+                "\U0001FAE9"
             ],
             
             // face-unwell
@@ -686,7 +687,8 @@ namespace UltimatePassGen.Emoji
                 "\U0001F9D1\u200D\U0001F9D1\u200D\U0001F9D2\u200D\U0001F9D2",
                 "\U0001F9D1\u200D\U0001F9D2",
                 "\U0001F9D1\u200D\U0001F9D2\u200D\U0001F9D2",
-                "\U0001F463"
+                "\U0001F463",
+                "\U0001FAC6"
             ],
             
             /* Component */
@@ -892,7 +894,8 @@ namespace UltimatePassGen.Emoji
                 "\U0001F343",
                 "\U0001FAB9",
                 "\U0001FABA",
-                "\U0001F344"
+                "\U0001F344",
+                "\U0001FABE"
             ],
             
             /* Food & Drink */
@@ -940,7 +943,8 @@ namespace UltimatePassGen.Emoji
                 "\U0001F330",
                 "\U0001FADA",
                 "\U0001FADB",
-                "\U0001F344\u200D\U0001F7EB"
+                "\U0001F344\u200D\U0001F7EB",
+                "\U0001FADC"
             ],
             
             // food-prepared
@@ -1526,7 +1530,8 @@ namespace UltimatePassGen.Emoji
                 "\U0001F941",
                 "\U0001FA98",
                 "\U0001FA87",
-                "\U0001FA88"
+                "\U0001FA88",
+                "\U0001FA89"
             ],
             
             // phone
@@ -1704,7 +1709,8 @@ namespace UltimatePassGen.Emoji
                 "\U0001FA9D",
                 "\U0001F9F0",
                 "\U0001F9F2",
-                "\U0001FA9C"
+                "\U0001FA9C",
+                "\U0001FA8F"
             ],
             
             // science
@@ -1951,7 +1957,8 @@ namespace UltimatePassGen.Emoji
                 "\u2747",
                 "\u00A9",
                 "\u00AE",
-                "\u2122"
+                "\u2122",
+                "\U0001FADF"
             ],
             
             // keycap
@@ -2163,6 +2170,7 @@ namespace UltimatePassGen.Emoji
                 "\U0001F1E8\U0001F1F3",
                 "\U0001F1E8\U0001F1F4",
                 "\U0001F1E8\U0001F1F5",
+                "\U0001F1E8\U0001F1F6",
                 "\U0001F1E8\U0001F1F7",
                 "\U0001F1E8\U0001F1FA",
                 "\U0001F1E8\U0001F1FB",
