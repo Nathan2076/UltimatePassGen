@@ -129,6 +129,7 @@ namespace UltimatePassGen.Emoji
                 "\U0001F62F",
                 "\U0001F632",
                 "\U0001F633",
+                "\U0001FAEA",
                 "\U0001F97A",
                 "\U0001F979",
                 "\U0001F626",
@@ -226,6 +227,7 @@ namespace UltimatePassGen.Emoji
                 "\U0001F48B",
                 "\U0001F4AF",
                 "\U0001F4A2",
+                "\U0001FAEF",
                 "\U0001F4A5",
                 "\U0001F4AB",
                 "\U0001F4A6",
@@ -515,7 +517,8 @@ namespace UltimatePassGen.Emoji
                 "\U0001F9DF",
                 "\U0001F9DF\u200D\u2642",
                 "\U0001F9DF\u200D\u2640",
-                "\U0001F9CC"
+                "\U0001F9CC",
+                "\U0001FAC8"
             ],
             
             // person-activity
@@ -565,6 +568,7 @@ namespace UltimatePassGen.Emoji
                 "\U0001F3C3\u200D\u27A1",
                 "\U0001F3C3\u200D\u2640\u200D\u27A1",
                 "\U0001F3C3\u200D\u2642\u200D\u27A1",
+                "\U0001F9D1\u200D\U0001FA70",
                 "\U0001F483",
                 "\U0001F57A",
                 "\U0001F574",
@@ -830,6 +834,7 @@ namespace UltimatePassGen.Emoji
                 "\U0001F433",
                 "\U0001F40B",
                 "\U0001F42C",
+                "\U0001FACD",
                 "\U0001F9AD",
                 "\U0001F41F",
                 "\U0001F420",
@@ -1085,6 +1090,7 @@ namespace UltimatePassGen.Emoji
             [
                 "\U0001F3D4",
                 "\u26F0",
+                "\U0001F6D8",
                 "\U0001F30B",
                 "\U0001F5FB",
                 "\U0001F3D5",
@@ -1525,6 +1531,7 @@ namespace UltimatePassGen.Emoji
                 "\U0001F3B8",
                 "\U0001F3B9",
                 "\U0001F3BA",
+                "\U0001FA8A",
                 "\U0001F3BB",
                 "\U0001FA95",
                 "\U0001F941",
@@ -1605,8 +1612,9 @@ namespace UltimatePassGen.Emoji
             
             // money
             [
-                "\U0001F4B0",
                 "\U0001FA99",
+                "\U0001F4B0",
+                "\U0001FA8E",
                 "\U0001F4B4",
                 "\U0001F4B5",
                 "\U0001F4B6",
